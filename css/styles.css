@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+hr{
+  border: dotted;
+  border-width: 0 0 8px 0;
+  color: #EAF6F6;
+  width: 6%;
+  margin: 100px auto;
+}
+h1{
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Beth Ellen', cursive;
+  color: #66BFBF;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+h3,h4,h5,h6{
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+a{
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: #11999E;
+  text-decoration: none;
+}
+.top-container{
+  position: relative;
+  background-color: #ebfffb;
+  padding-top: 100px;
+}
+.bottom-cloud{
+  position: absolute;
+
+}
+.top-cloud{
+  position: absolute;
+  right:450px;
+  top:150px;
+}
+
+.middle-container{
+  padding: 100px;
+}
+p{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #40514E;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.gd-img{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.bi-img{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #11a8b0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.bottom-container{
+  padding: 50px;
+  background-color: #66BFBF;
+}
+.copyright{
+  font-size: 0.8rem;
+  color: #EAF6F6;
+}
+.footer-link{
+  margin:10px;
+}
